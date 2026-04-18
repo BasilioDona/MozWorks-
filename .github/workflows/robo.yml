@@ -1,0 +1,32 @@
+name: Robo MozWorks Real
+
+on:
+  schedule:
+    - cron: '0 8 * * *' # Roda todo dia às 8 da manhã
+  workflow_dispatch: # Botão para você rodar quando quiser
+
+jobs:
+  scraping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout do código
+        uses: actions/checkout@v3
+
+      - name: Configurar Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Instalar dependências
+        run: pip install requests beautifulsoup4
+
+      - name: Rodar o Robô
+        run: python robo_vagas.py
+
+      - name: Salvar no GitHub
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add vagas.json
+          git commit -m "Vagas reais atualizadas" || exit 0
+          git push
