@@ -1,1 +1,26 @@
-[]
+[
+    {
+        "titulo": "Técnico de Manutenção Eléctrica",
+        "empresa": "EDM - Electricidade de Moçambique",
+        "provincia": "Maputo",
+        "link": "https://www.edm.co.mz"
+    },
+    {
+        "titulo": "Instalador de Painéis Solares",
+        "empresa": "MozSolar Tech",
+        "provincia": "Tete",
+        "link": "https://exemplo.com/vagas"
+    },
+    {
+        "titulo": "Gestor de Sistemas de Vídeo Vigilância",
+        "empresa": "SegurTec Moz",
+        "provincia": "Sofala",
+        "link": "https://exemplo.com/vagas"
+    },
+    {
+        "titulo": "Contabilista Júnior",
+        "empresa": "Banco ABC",
+        "provincia": "Nampula",
+        "link": "https://exemplo.com/vagas"
+    }
+]
