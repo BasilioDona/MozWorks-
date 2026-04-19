@@ -5,7 +5,7 @@ import json
 
 def capturar_sdo():
     print("--- INICIANDO CAPTURA REAL ---")
-    url = "https://sdo.co.mz/vagas/"
+    url = "https://www.emprego.co.mz/"
     vagas_lista = []
     
     headers = {
