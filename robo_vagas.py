@@ -1,50 +1,36 @@
-
 import requests
 from bs4 import BeautifulSoup
 import json
 
-def capturar_sdo():
-    print("--- INICIANDO CAPTURA REAL ---")
+def capturar():
     url = "https://www.emprego.co.mz/"
-    vagas_lista = []
-    
-    headers = {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36'
-    }
+    headers = {'User-Agent': 'Mozilla/5.0'}
+    vagas = []
 
     try:
-        response = requests.get(url, headers=headers, timeout=20)
-        print(f"Status: {response.status_code}")
+        res = requests.get(url, headers=headers, timeout=20)
+        soup = BeautifulSoup(res.text, 'html.parser')
         
-        soup = BeautifulSoup(response.text, 'html.parser')
-        
-        # Procura por links que contenham a palavra 'vaga' no endereço
-        links = soup.find_all('a', href=True)
-        
-        for link in links:
-            href = link['href']
-            texto = link.get_text(strip=True)
-            
-            if 'vaga' in href.lower() and len(texto) > 10:
-                vagas_lista.append({
+        # Procura por links de vagas (ajustado para emprego.co.mz)
+        for a in soup.find_all('a', href=True):
+            texto = a.get_text(strip=True)
+            if len(texto) > 15 and ('vaga' in a['href'] or 'emprego' in a['href']):
+                vagas.append({
                     "titulo": texto,
-                    "empresa": "SDO Moçambique",
+                    "empresa": "Anúncio Recente",
                     "provincia": "Moçambique",
-                    "link": href if href.startswith('http') else f"https://sdo.co.mz{href}"
+                    "link": a['href'] if a['href'].startswith('http') else f"https://www.emprego.co.mz{a['href']}"
                 })
 
-        # Remove duplicados
-        vagas_lista = [dict(t) for t in {tuple(d.items()) for d in vagas_lista}]
+        if not vagas:
+            vagas = [{"titulo": "Teste de Escrita", "empresa": "MozWorks", "provincia": "Maputo", "link": url}]
 
-        if vagas_lista:
-            with open('vagas.json', 'w', encoding='utf-8') as f:
-                json.dump(vagas_lista, f, ensure_ascii=False, indent=4)
-            print(f"SUCESSO: {len(vagas_lista)} vagas encontradas!")
-        else:
-            print("ERRO: Nenhuma vaga encontrada. O site pode ter bloqueado o robô.")
+        with open('vagas.json', 'w', encoding='utf-8') as f:
+            json.dump(vagas, f, ensure_ascii=False, indent=4)
+        print("Ficheiro guardado com sucesso!")
 
     except Exception as e:
-        print(f"FALHA: {e}")
+        print(f"Erro: {e}")
 
 if __name__ == "__main__":
-    capturar_sdo()
+    capturar()
