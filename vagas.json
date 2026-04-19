@@ -1,278 +1,710 @@
 [
     {
-        "titulo": "Lead Surveyor",
-        "empresa": "SDO Moçambique",
+        "titulo": "Ver recrutadores",
+        "empresa": "Anúncio Recente",
         "provincia": "Moçambique",
-        "link": "https://www.emprego.co.mz/vaga/lead-surveyor-2/"
+        "link": "https://www.emprego.co.mz/empregadores/"
     },
     {
-        "titulo": "Técnico Superior de Gestão de Contratos – Estagiário",
-        "empresa": "SDO Moçambique",
+        "titulo": "Perguntas frequentes",
+        "empresa": "Anúncio Recente",
         "provincia": "Moçambique",
-        "link": "https://www.emprego.co.mz/vaga/tecnico-superior-de-gestao-de-contratos-estagiario/"
+        "link": "https://www.emprego.co.mz/faq/"
     },
     {
-        "titulo": "Gestor de Marketing e Finanças",
-        "empresa": "SDO Moçambique",
+        "titulo": "Administração e Secretariado",
+        "empresa": "Anúncio Recente",
         "provincia": "Moçambique",
-        "link": "https://www.emprego.co.mz/vaga/gestor-de-marketing-e-financas/"
+        "link": "https://www.emprego.co.mz/categoria/administracao-e-secretariado/"
     },
     {
-        "titulo": "Fisheries Livelihoods Coordinator",
-        "empresa": "SDO Moçambique",
+        "titulo": "Agricultura e Pescas",
+        "empresa": "Anúncio Recente",
         "provincia": "Moçambique",
-        "link": "https://www.emprego.co.mz/vaga/fisheries-livelihoods-coordinator/"
+        "link": "https://www.emprego.co.mz/categoria/agricultura-e-pescas/"
     },
     {
-        "titulo": "Oficial de Cobranças",
-        "empresa": "SDO Moçambique",
+        "titulo": "Apoio ao Cliente e Call Center",
+        "empresa": "Anúncio Recente",
         "provincia": "Moçambique",
-        "link": "https://www.emprego.co.mz/vaga/oficial-de-cobrancas-2/"
+        "link": "https://www.emprego.co.mz/categoria/apoio-ao-cliente-e-call-center/"
     },
     {
-        "titulo": "Técnico Superior de Segurança Empresarial – Estagiário",
-        "empresa": "SDO Moçambique",
+        "titulo": "Auditoria, Finanças e Contabilidade",
+        "empresa": "Anúncio Recente",
         "provincia": "Moçambique",
-        "link": "https://www.emprego.co.mz/vaga/tecnico-superior-de-seguranca-empresarial-estagiario/"
+        "link": "https://www.emprego.co.mz/categoria/auditoria-financas-e-contabilidade/"
     },
     {
-        "titulo": "Operador de Sistemas – Estagiário",
-        "empresa": "SDO Moçambique",
+        "titulo": "Comercial e Vendas",
+        "empresa": "Anúncio Recente",
         "provincia": "Moçambique",
-        "link": "https://www.emprego.co.mz/vaga/operador-de-sistemas-estagiario/"
+        "link": "https://www.emprego.co.mz/categoria/comercial-e-vendas/"
     },
     {
-        "titulo": "Assistente de Tecnologias de Informação e Transformação Digital",
-        "empresa": "SDO Moçambique",
+        "titulo": "Comunicação e Marketing",
+        "empresa": "Anúncio Recente",
         "provincia": "Moçambique",
-        "link": "https://www.emprego.co.mz/vaga/assistente-de-tecnologias-de-informacao-e-transformacao-digital/"
+        "link": "https://www.emprego.co.mz/categoria/comunicacao-e-marketing/"
     },
     {
-        "titulo": "Gestor de Clientes – Estagiário",
-        "empresa": "SDO Moçambique",
+        "titulo": "Educação e Formação",
+        "empresa": "Anúncio Recente",
         "provincia": "Moçambique",
-        "link": "https://www.emprego.co.mz/vaga/gestor-de-clientes-estagiario/"
+        "link": "https://www.emprego.co.mz/categoria/educacao-e-formacao/"
     },
     {
-        "titulo": "Candidaturas",
-        "empresa": "SDO Moçambique",
+        "titulo": "Estágios e Programas de Graduação",
+        "empresa": "Anúncio Recente",
         "provincia": "Moçambique",
-        "link": "https://www.emprego.co.mz/candidato/vagas/"
+        "link": "https://www.emprego.co.mz/categoria/estagios-e-programas-de-graduacao/"
     },
     {
-        "titulo": "Program Manager",
-        "empresa": "SDO Moçambique",
+        "titulo": "Gestão e Consultoria",
+        "empresa": "Anúncio Recente",
         "provincia": "Moçambique",
-        "link": "https://www.emprego.co.mz/vaga/program-manager-operation-smile/"
+        "link": "https://www.emprego.co.mz/categoria/gestao-e-consultoria/"
     },
     {
-        "titulo": "Operations Manager",
-        "empresa": "SDO Moçambique",
+        "titulo": "Higiene, Segurança e Ambiente",
+        "empresa": "Anúncio Recente",
         "provincia": "Moçambique",
-        "link": "https://www.emprego.co.mz/vaga/operations-manager-fauna-flora-saving-nature-together/"
+        "link": "https://www.emprego.co.mz/categoria/higiene-seguranca-e-ambiente/"
     },
     {
-        "titulo": "Lead Contracts Engineer Field Operations (FOPS) and Logistics",
-        "empresa": "SDO Moçambique",
+        "titulo": "Informática e Programação",
+        "empresa": "Anúncio Recente",
         "provincia": "Moçambique",
-        "link": "https://www.emprego.co.mz/vaga/lead-contracts-engineer-field-operations-fops-and-logistics-2/"
+        "link": "https://www.emprego.co.mz/categoria/informatica-e-programacao/"
     },
     {
-        "titulo": "Controlador de Frota",
-        "empresa": "SDO Moçambique",
+        "titulo": "Petróleo, Gás e Energias Renováveis",
+        "empresa": "Anúncio Recente",
         "provincia": "Moçambique",
-        "link": "https://www.emprego.co.mz/vaga/controlador-de-frota-cimentos-de-mocambique/"
+        "link": "https://www.emprego.co.mz/categoria/petroleo-gas-e-energias-renovaveis/"
+    },
+    {
+        "titulo": "Recursos Humanos e Recrutamento",
+        "empresa": "Anúncio Recente",
+        "provincia": "Moçambique",
+        "link": "https://www.emprego.co.mz/categoria/recursos-humanos-e-recrutamento/"
+    },
+    {
+        "titulo": "Saúde e Farmacêutica",
+        "empresa": "Anúncio Recente",
+        "provincia": "Moçambique",
+        "link": "https://www.emprego.co.mz/categoria/saude-e-farmaceutica/"
+    },
+    {
+        "titulo": "Transportes e Logística",
+        "empresa": "Anúncio Recente",
+        "provincia": "Moçambique",
+        "link": "https://www.emprego.co.mz/categoria/transportes-e-logistica/"
     },
     {
         "titulo": "Procurement Officer",
-        "empresa": "SDO Moçambique",
+        "empresa": "Anúncio Recente",
         "provincia": "Moçambique",
         "link": "https://www.emprego.co.mz/vaga/procurement-officer-3/"
     },
     {
-        "titulo": "Fisheries Livelihoods Coordinator",
-        "empresa": "SDO Moçambique",
+        "titulo": "Heading Moçambique",
+        "empresa": "Anúncio Recente",
         "provincia": "Moçambique",
-        "link": "https://www.emprego.co.mz/vaga/fisheries-livelihoods-coordinator-2/"
+        "link": "https://www.emprego.co.mz/empregador/heading/"
     },
     {
-        "titulo": "Finance and Administration Officer",
-        "empresa": "SDO Moçambique",
+        "titulo": "Transportes e Logística",
+        "empresa": "Anúncio Recente",
         "provincia": "Moçambique",
-        "link": "https://www.emprego.co.mz/vaga/finance-and-administration-officer-3/"
+        "link": "https://www.emprego.co.mz/categoria/transportes-e-logistica/"
     },
     {
         "titulo": "Monitoring & Evaluation Officer",
-        "empresa": "SDO Moçambique",
+        "empresa": "Anúncio Recente",
         "provincia": "Moçambique",
         "link": "https://www.emprego.co.mz/vaga/monitoring-evaluation-officer/"
     },
     {
-        "titulo": "Analista Financeiro – Estagiário",
-        "empresa": "SDO Moçambique",
+        "titulo": "Heading Moçambique",
+        "empresa": "Anúncio Recente",
         "provincia": "Moçambique",
-        "link": "https://www.emprego.co.mz/vaga/analista-financeiro-estagiario/"
+        "link": "https://www.emprego.co.mz/empregador/heading/"
     },
     {
-        "titulo": "HSE Officer",
-        "empresa": "SDO Moçambique",
+        "titulo": "Heading Moçambique",
+        "empresa": "Anúncio Recente",
         "provincia": "Moçambique",
-        "link": "https://www.emprego.co.mz/vaga/hse-officer-10/"
+        "link": "https://www.emprego.co.mz/empregador/heading/"
     },
     {
-        "titulo": "HSE Officer",
-        "empresa": "SDO Moçambique",
+        "titulo": "Higiene, Segurança e Ambiente",
+        "empresa": "Anúncio Recente",
         "provincia": "Moçambique",
-        "link": "https://www.emprego.co.mz/vaga/hse-officer-9/"
+        "link": "https://www.emprego.co.mz/categoria/higiene-seguranca-e-ambiente/"
     },
     {
-        "titulo": "Director de Centro de Competências de Inteligência Artificial",
-        "empresa": "SDO Moçambique",
+        "titulo": "Fisheries Livelihoods Coordinator",
+        "empresa": "Anúncio Recente",
         "provincia": "Moçambique",
-        "link": "https://www.emprego.co.mz/vaga/director-de-centro-de-competencias-de-inteligencia-artificial/"
+        "link": "https://www.emprego.co.mz/vaga/fisheries-livelihoods-coordinator-2/"
     },
     {
-        "titulo": "Auditor Interno I – Segurança de Informação – Estagiário",
-        "empresa": "SDO Moçambique",
+        "titulo": "Heading Moçambique",
+        "empresa": "Anúncio Recente",
         "provincia": "Moçambique",
-        "link": "https://www.emprego.co.mz/vaga/auditor-interno-i-seguranca-de-informacao-estagiario/"
+        "link": "https://www.emprego.co.mz/empregador/heading/"
     },
     {
-        "titulo": "HSE Officer",
-        "empresa": "SDO Moçambique",
+        "titulo": "Agricultura e Pescas",
+        "empresa": "Anúncio Recente",
         "provincia": "Moçambique",
-        "link": "https://www.emprego.co.mz/vaga/hse-officer-11/"
+        "link": "https://www.emprego.co.mz/categoria/agricultura-e-pescas/"
     },
     {
-        "titulo": "Legal Counsel – Litigation & Business Risk",
-        "empresa": "SDO Moçambique",
+        "titulo": "Heading Moçambique",
+        "empresa": "Anúncio Recente",
         "provincia": "Moçambique",
-        "link": "https://www.emprego.co.mz/vaga/legal-counsel-litigation-business-risk/"
-    },
-    {
-        "titulo": "PVPSSA MZBQ Engagement and Advocacy Officer",
-        "empresa": "SDO Moçambique",
-        "provincia": "Moçambique",
-        "link": "https://www.emprego.co.mz/vaga/pvpssa-mzbq-engagement-and-advocacy-officer/"
+        "link": "https://www.emprego.co.mz/empregador/heading/"
     },
     {
         "titulo": "Coordenador de Operações de Cadeia de Suprimentos",
-        "empresa": "SDO Moçambique",
+        "empresa": "Anúncio Recente",
         "provincia": "Moçambique",
         "link": "https://www.emprego.co.mz/vaga/coordenador-de-operacoes-de-cadeia-de-suprimentos/"
     },
     {
-        "titulo": "Country Director",
-        "empresa": "SDO Moçambique",
+        "titulo": "Cimentos de Moçambique",
+        "empresa": "Anúncio Recente",
         "provincia": "Moçambique",
-        "link": "https://www.emprego.co.mz/vaga/country-director-3/"
+        "link": "https://www.emprego.co.mz/empregador/cimentos-de-mocambique/"
     },
     {
-        "titulo": "Estagiários",
-        "empresa": "SDO Moçambique",
+        "titulo": "Transportes e Logística",
+        "empresa": "Anúncio Recente",
         "provincia": "Moçambique",
-        "link": "https://www.emprego.co.mz/vaga/estagiarios-3/"
-    },
-    {
-        "titulo": "Gender Coordinator",
-        "empresa": "SDO Moçambique",
-        "provincia": "Moçambique",
-        "link": "https://www.emprego.co.mz/vaga/gender-coordinator/"
-    },
-    {
-        "titulo": "Técnico de Gestão Ambiental – Estagiário",
-        "empresa": "SDO Moçambique",
-        "provincia": "Moçambique",
-        "link": "https://www.emprego.co.mz/vaga/tecnico-de-gestao-ambiental-estagiario/"
-    },
-    {
-        "titulo": "Técnico de Instrumentação – Estagiário",
-        "empresa": "SDO Moçambique",
-        "provincia": "Moçambique",
-        "link": "https://www.emprego.co.mz/vaga/tecnico-de-instrumentacao-estagiario/"
-    },
-    {
-        "titulo": "Oficial de Cobranças",
-        "empresa": "SDO Moçambique",
-        "provincia": "Moçambique",
-        "link": "https://www.emprego.co.mz/vaga/49519/"
-    },
-    {
-        "titulo": "Gestor do Currículo Nacional",
-        "empresa": "SDO Moçambique",
-        "provincia": "Moçambique",
-        "link": "https://www.emprego.co.mz/vaga/gestor-do-curriculo-nacional-2/"
-    },
-    {
-        "titulo": "Assistente de Finanças e Administração",
-        "empresa": "SDO Moçambique",
-        "provincia": "Moçambique",
-        "link": "https://www.emprego.co.mz/vaga/assistente-de-financas-e-administracao-2/"
-    },
-    {
-        "titulo": "Oficial de Relacionemento com Clientes de PME II",
-        "empresa": "SDO Moçambique",
-        "provincia": "Moçambique",
-        "link": "https://www.emprego.co.mz/vaga/oficial-de-relacionemento-com-clientes-de-pme-ii-futuro-mcb/"
-    },
-    {
-        "titulo": "Técnico Aduaneiro",
-        "empresa": "SDO Moçambique",
-        "provincia": "Moçambique",
-        "link": "https://www.emprego.co.mz/vaga/tecnico-aduaneiro-5/"
-    },
-    {
-        "titulo": "Coordenador da Recepção",
-        "empresa": "SDO Moçambique",
-        "provincia": "Moçambique",
-        "link": "https://www.emprego.co.mz/vaga/coordenador-da-recepcao/"
-    },
-    {
-        "titulo": "Assistente de Recursos Humanos",
-        "empresa": "SDO Moçambique",
-        "provincia": "Moçambique",
-        "link": "https://www.emprego.co.mz/vaga/assistente-de-recursos-humanos-10/"
+        "link": "https://www.emprego.co.mz/categoria/transportes-e-logistica/"
     },
     {
         "titulo": "Analista de Gestão de Activos Logísticos e Fornecedores",
-        "empresa": "SDO Moçambique",
+        "empresa": "Anúncio Recente",
         "provincia": "Moçambique",
         "link": "https://www.emprego.co.mz/vaga/analista-de-gestao-de-activos-logisticos-e-fornecedores/"
     },
     {
+        "titulo": "Cimentos de Moçambique",
+        "empresa": "Anúncio Recente",
+        "provincia": "Moçambique",
+        "link": "https://www.emprego.co.mz/empregador/cimentos-de-mocambique/"
+    },
+    {
+        "titulo": "Transportes e Logística",
+        "empresa": "Anúncio Recente",
+        "provincia": "Moçambique",
+        "link": "https://www.emprego.co.mz/categoria/transportes-e-logistica/"
+    },
+    {
+        "titulo": "Técnico Informático",
+        "empresa": "Anúncio Recente",
+        "provincia": "Moçambique",
+        "link": "https://www.emprego.co.mz/vaga/tecnico-informatico-2/"
+    },
+    {
+        "titulo": "Informática e Programação",
+        "empresa": "Anúncio Recente",
+        "provincia": "Moçambique",
+        "link": "https://www.emprego.co.mz/categoria/informatica-e-programacao/"
+    },
+    {
         "titulo": "Oficial de Cobranças",
-        "empresa": "SDO Moçambique",
+        "empresa": "Anúncio Recente",
         "provincia": "Moçambique",
         "link": "https://www.emprego.co.mz/vaga/oficial-de-cobrancas-3/"
     },
     {
-        "titulo": "Auditor Interno I (Auditoria à Operação e Manutenção) – Estagiário",
-        "empresa": "SDO Moçambique",
+        "titulo": "Auditoria, Finanças e Contabilidade",
+        "empresa": "Anúncio Recente",
         "provincia": "Moçambique",
-        "link": "https://www.emprego.co.mz/vaga/auditor-interno-i-auditoria-a-operacao-e-manutencao-estagiario/"
+        "link": "https://www.emprego.co.mz/categoria/auditoria-financas-e-contabilidade/"
     },
     {
-        "titulo": "Internal Developer",
-        "empresa": "SDO Moçambique",
+        "titulo": "Oficial de Cobranças",
+        "empresa": "Anúncio Recente",
         "provincia": "Moçambique",
-        "link": "https://www.emprego.co.mz/vaga/internal-developer-nc-software-house/"
+        "link": "https://www.emprego.co.mz/vaga/49519/"
     },
     {
-        "titulo": "Lead Surveyor",
-        "empresa": "SDO Moçambique",
+        "titulo": "Auditoria, Finanças e Contabilidade",
+        "empresa": "Anúncio Recente",
         "provincia": "Moçambique",
-        "link": "https://www.emprego.co.mz/vaga/lead-surveyor/"
+        "link": "https://www.emprego.co.mz/categoria/auditoria-financas-e-contabilidade/"
+    },
+    {
+        "titulo": "Oficial de Cobranças",
+        "empresa": "Anúncio Recente",
+        "provincia": "Moçambique",
+        "link": "https://www.emprego.co.mz/vaga/oficial-de-cobrancas-2/"
+    },
+    {
+        "titulo": "Auditoria, Finanças e Contabilidade",
+        "empresa": "Anúncio Recente",
+        "provincia": "Moçambique",
+        "link": "https://www.emprego.co.mz/categoria/auditoria-financas-e-contabilidade/"
+    },
+    {
+        "titulo": "Higiene, Segurança e Ambiente",
+        "empresa": "Anúncio Recente",
+        "provincia": "Moçambique",
+        "link": "https://www.emprego.co.mz/categoria/higiene-seguranca-e-ambiente/"
+    },
+    {
+        "titulo": "Técnico Aduaneiro",
+        "empresa": "Anúncio Recente",
+        "provincia": "Moçambique",
+        "link": "https://www.emprego.co.mz/vaga/tecnico-aduaneiro-5/"
+    },
+    {
+        "titulo": "Cimentos de Moçambique",
+        "empresa": "Anúncio Recente",
+        "provincia": "Moçambique",
+        "link": "https://www.emprego.co.mz/empregador/cimentos-de-mocambique/"
+    },
+    {
+        "titulo": "Lead Contracts Engineer Field Operations (FOPS) and Logistics",
+        "empresa": "Anúncio Recente",
+        "provincia": "Moçambique",
+        "link": "https://www.emprego.co.mz/vaga/lead-contracts-engineer-field-operations-fops-and-logistics-2/"
+    },
+    {
+        "titulo": "Transportes e Logística",
+        "empresa": "Anúncio Recente",
+        "provincia": "Moçambique",
+        "link": "https://www.emprego.co.mz/categoria/transportes-e-logistica/"
+    },
+    {
+        "titulo": "Assistente de Finanças e Administração",
+        "empresa": "Anúncio Recente",
+        "provincia": "Moçambique",
+        "link": "https://www.emprego.co.mz/vaga/assistente-de-financas-e-administracao-2/"
+    },
+    {
+        "titulo": "AMPCM – Associação Moçambicana de Promoção do Cooperativismo Moderno",
+        "empresa": "Anúncio Recente",
+        "provincia": "Moçambique",
+        "link": "https://www.emprego.co.mz/empregador/ampcm-associacao-mocambicana-de-promocao-do-cooperativismo-moderno/"
+    },
+    {
+        "titulo": "Auditoria, Finanças e Contabilidade",
+        "empresa": "Anúncio Recente",
+        "provincia": "Moçambique",
+        "link": "https://www.emprego.co.mz/categoria/auditoria-financas-e-contabilidade/"
+    },
+    {
+        "titulo": "Gestor de Marketing e Finanças",
+        "empresa": "Anúncio Recente",
+        "provincia": "Moçambique",
+        "link": "https://www.emprego.co.mz/vaga/gestor-de-marketing-e-financas/"
+    },
+    {
+        "titulo": "AMPCM – Associação Moçambicana de Promoção do Cooperativismo Moderno",
+        "empresa": "Anúncio Recente",
+        "provincia": "Moçambique",
+        "link": "https://www.emprego.co.mz/empregador/ampcm-associacao-mocambicana-de-promocao-do-cooperativismo-moderno/"
+    },
+    {
+        "titulo": "Comunicação e Marketing",
+        "empresa": "Anúncio Recente",
+        "provincia": "Moçambique",
+        "link": "https://www.emprego.co.mz/categoria/comunicacao-e-marketing/"
     },
     {
         "titulo": "Estudo de Base do Projecto NDICI ÁFRICA/2025/487-454",
-        "empresa": "SDO Moçambique",
+        "empresa": "Anúncio Recente",
         "provincia": "Moçambique",
         "link": "https://www.emprego.co.mz/vaga/estudo-de-base-do-projecto-ndici-africa-2025-487-454/"
     },
     {
-        "titulo": "Técnico Informático",
-        "empresa": "SDO Moçambique",
+        "titulo": "Gestão e Consultoria",
+        "empresa": "Anúncio Recente",
         "provincia": "Moçambique",
-        "link": "https://www.emprego.co.mz/vaga/tecnico-informatico-2/"
+        "link": "https://www.emprego.co.mz/categoria/gestao-e-consultoria/"
+    },
+    {
+        "titulo": "Higiene, Segurança e Ambiente",
+        "empresa": "Anúncio Recente",
+        "provincia": "Moçambique",
+        "link": "https://www.emprego.co.mz/categoria/higiene-seguranca-e-ambiente/"
+    },
+    {
+        "titulo": "Fisheries Livelihoods Coordinator",
+        "empresa": "Anúncio Recente",
+        "provincia": "Moçambique",
+        "link": "https://www.emprego.co.mz/vaga/fisheries-livelihoods-coordinator/"
+    },
+    {
+        "titulo": "Agricultura e Pescas",
+        "empresa": "Anúncio Recente",
+        "provincia": "Moçambique",
+        "link": "https://www.emprego.co.mz/categoria/agricultura-e-pescas/"
+    },
+    {
+        "titulo": "Director de Centro de Competências de Inteligência Artificial",
+        "empresa": "Anúncio Recente",
+        "provincia": "Moçambique",
+        "link": "https://www.emprego.co.mz/vaga/director-de-centro-de-competencias-de-inteligencia-artificial/"
+    },
+    {
+        "titulo": "Informática e Programação",
+        "empresa": "Anúncio Recente",
+        "provincia": "Moçambique",
+        "link": "https://www.emprego.co.mz/categoria/informatica-e-programacao/"
+    },
+    {
+        "titulo": "Controlador de Frota",
+        "empresa": "Anúncio Recente",
+        "provincia": "Moçambique",
+        "link": "https://www.emprego.co.mz/vaga/controlador-de-frota-cimentos-de-mocambique/"
+    },
+    {
+        "titulo": "Cimentos de Moçambique",
+        "empresa": "Anúncio Recente",
+        "provincia": "Moçambique",
+        "link": "https://www.emprego.co.mz/empregador/cimentos-de-mocambique/"
+    },
+    {
+        "titulo": "Transportes e Logística",
+        "empresa": "Anúncio Recente",
+        "provincia": "Moçambique",
+        "link": "https://www.emprego.co.mz/categoria/transportes-e-logistica/"
+    },
+    {
+        "titulo": "Saúde e Farmacêutica",
+        "empresa": "Anúncio Recente",
+        "provincia": "Moçambique",
+        "link": "https://www.emprego.co.mz/categoria/saude-e-farmaceutica/"
+    },
+    {
+        "titulo": "Oficial de Relacionemento com Clientes de PME II",
+        "empresa": "Anúncio Recente",
+        "provincia": "Moçambique",
+        "link": "https://www.emprego.co.mz/vaga/oficial-de-relacionemento-com-clientes-de-pme-ii-futuro-mcb/"
+    },
+    {
+        "titulo": "Apoio ao Cliente e Call Center",
+        "empresa": "Anúncio Recente",
+        "provincia": "Moçambique",
+        "link": "https://www.emprego.co.mz/categoria/apoio-ao-cliente-e-call-center/"
+    },
+    {
+        "titulo": "Gender Coordinator",
+        "empresa": "Anúncio Recente",
+        "provincia": "Moçambique",
+        "link": "https://www.emprego.co.mz/vaga/gender-coordinator/"
+    },
+    {
+        "titulo": "Diakonie Katastrophenhilfe",
+        "empresa": "Anúncio Recente",
+        "provincia": "Moçambique",
+        "link": "https://www.emprego.co.mz/empregador/diakonie-katastrophenhilfe/"
+    },
+    {
+        "titulo": "Gestão e Consultoria",
+        "empresa": "Anúncio Recente",
+        "provincia": "Moçambique",
+        "link": "https://www.emprego.co.mz/categoria/gestao-e-consultoria/"
+    },
+    {
+        "titulo": "Assistente de Tecnologias de Informação e Transformação Digital",
+        "empresa": "Anúncio Recente",
+        "provincia": "Moçambique",
+        "link": "https://www.emprego.co.mz/vaga/assistente-de-tecnologias-de-informacao-e-transformacao-digital/"
+    },
+    {
+        "titulo": "Informática e Programação",
+        "empresa": "Anúncio Recente",
+        "provincia": "Moçambique",
+        "link": "https://www.emprego.co.mz/categoria/informatica-e-programacao/"
+    },
+    {
+        "titulo": "Assistente de Recursos Humanos",
+        "empresa": "Anúncio Recente",
+        "provincia": "Moçambique",
+        "link": "https://www.emprego.co.mz/vaga/assistente-de-recursos-humanos-10/"
+    },
+    {
+        "titulo": "Recursos Humanos e Recrutamento",
+        "empresa": "Anúncio Recente",
+        "provincia": "Moçambique",
+        "link": "https://www.emprego.co.mz/categoria/recursos-humanos-e-recrutamento/"
+    },
+    {
+        "titulo": "Internal Developer",
+        "empresa": "Anúncio Recente",
+        "provincia": "Moçambique",
+        "link": "https://www.emprego.co.mz/vaga/internal-developer-nc-software-house/"
+    },
+    {
+        "titulo": "NC Software House",
+        "empresa": "Anúncio Recente",
+        "provincia": "Moçambique",
+        "link": "https://www.emprego.co.mz/empregador/nc-software-house/"
+    },
+    {
+        "titulo": "Informática e Programação",
+        "empresa": "Anúncio Recente",
+        "provincia": "Moçambique",
+        "link": "https://www.emprego.co.mz/categoria/informatica-e-programacao/"
+    },
+    {
+        "titulo": "Finance and Administration Officer",
+        "empresa": "Anúncio Recente",
+        "provincia": "Moçambique",
+        "link": "https://www.emprego.co.mz/vaga/finance-and-administration-officer-3/"
+    },
+    {
+        "titulo": "Fauna & Flora | Saving Nature Together",
+        "empresa": "Anúncio Recente",
+        "provincia": "Moçambique",
+        "link": "https://www.emprego.co.mz/empregador/fauna-flora-international/"
+    },
+    {
+        "titulo": "Auditoria, Finanças e Contabilidade",
+        "empresa": "Anúncio Recente",
+        "provincia": "Moçambique",
+        "link": "https://www.emprego.co.mz/categoria/auditoria-financas-e-contabilidade/"
+    },
+    {
+        "titulo": "Operations Manager",
+        "empresa": "Anúncio Recente",
+        "provincia": "Moçambique",
+        "link": "https://www.emprego.co.mz/vaga/operations-manager-fauna-flora-saving-nature-together/"
+    },
+    {
+        "titulo": "Fauna & Flora | Saving Nature Together",
+        "empresa": "Anúncio Recente",
+        "provincia": "Moçambique",
+        "link": "https://www.emprego.co.mz/empregador/fauna-flora-international/"
+    },
+    {
+        "titulo": "Operador de Sistemas – Estagiário",
+        "empresa": "Anúncio Recente",
+        "provincia": "Moçambique",
+        "link": "https://www.emprego.co.mz/vaga/operador-de-sistemas-estagiario/"
+    },
+    {
+        "titulo": "Analista Financeiro – Estagiário",
+        "empresa": "Anúncio Recente",
+        "provincia": "Moçambique",
+        "link": "https://www.emprego.co.mz/vaga/analista-financeiro-estagiario/"
+    },
+    {
+        "titulo": "Auditoria, Finanças e Contabilidade",
+        "empresa": "Anúncio Recente",
+        "provincia": "Moçambique",
+        "link": "https://www.emprego.co.mz/categoria/auditoria-financas-e-contabilidade/"
+    },
+    {
+        "titulo": "Auditor Interno I (Auditoria à Operação e Manutenção) – Estagiário",
+        "empresa": "Anúncio Recente",
+        "provincia": "Moçambique",
+        "link": "https://www.emprego.co.mz/vaga/auditor-interno-i-auditoria-a-operacao-e-manutencao-estagiario/"
+    },
+    {
+        "titulo": "Auditoria, Finanças e Contabilidade",
+        "empresa": "Anúncio Recente",
+        "provincia": "Moçambique",
+        "link": "https://www.emprego.co.mz/categoria/auditoria-financas-e-contabilidade/"
+    },
+    {
+        "titulo": "Auditor Interno I – Segurança de Informação – Estagiário",
+        "empresa": "Anúncio Recente",
+        "provincia": "Moçambique",
+        "link": "https://www.emprego.co.mz/vaga/auditor-interno-i-seguranca-de-informacao-estagiario/"
+    },
+    {
+        "titulo": "Auditoria, Finanças e Contabilidade",
+        "empresa": "Anúncio Recente",
+        "provincia": "Moçambique",
+        "link": "https://www.emprego.co.mz/categoria/auditoria-financas-e-contabilidade/"
+    },
+    {
+        "titulo": "Gestor de Clientes – Estagiário",
+        "empresa": "Anúncio Recente",
+        "provincia": "Moçambique",
+        "link": "https://www.emprego.co.mz/vaga/gestor-de-clientes-estagiario/"
+    },
+    {
+        "titulo": "Comercial e Vendas",
+        "empresa": "Anúncio Recente",
+        "provincia": "Moçambique",
+        "link": "https://www.emprego.co.mz/categoria/comercial-e-vendas/"
+    },
+    {
+        "titulo": "Técnico de Gestão Ambiental – Estagiário",
+        "empresa": "Anúncio Recente",
+        "provincia": "Moçambique",
+        "link": "https://www.emprego.co.mz/vaga/tecnico-de-gestao-ambiental-estagiario/"
+    },
+    {
+        "titulo": "Higiene, Segurança e Ambiente",
+        "empresa": "Anúncio Recente",
+        "provincia": "Moçambique",
+        "link": "https://www.emprego.co.mz/categoria/higiene-seguranca-e-ambiente/"
+    },
+    {
+        "titulo": "Técnico de Instrumentação – Estagiário",
+        "empresa": "Anúncio Recente",
+        "provincia": "Moçambique",
+        "link": "https://www.emprego.co.mz/vaga/tecnico-de-instrumentacao-estagiario/"
+    },
+    {
+        "titulo": "Técnico Superior de Gestão de Contratos – Estagiário",
+        "empresa": "Anúncio Recente",
+        "provincia": "Moçambique",
+        "link": "https://www.emprego.co.mz/vaga/tecnico-superior-de-gestao-de-contratos-estagiario/"
+    },
+    {
+        "titulo": "Recursos Humanos e Recrutamento",
+        "empresa": "Anúncio Recente",
+        "provincia": "Moçambique",
+        "link": "https://www.emprego.co.mz/categoria/recursos-humanos-e-recrutamento/"
+    },
+    {
+        "titulo": "Técnico Superior de Segurança Empresarial – Estagiário",
+        "empresa": "Anúncio Recente",
+        "provincia": "Moçambique",
+        "link": "https://www.emprego.co.mz/vaga/tecnico-superior-de-seguranca-empresarial-estagiario/"
+    },
+    {
+        "titulo": "Country Director",
+        "empresa": "Anúncio Recente",
+        "provincia": "Moçambique",
+        "link": "https://www.emprego.co.mz/vaga/country-director-3/"
+    },
+    {
+        "titulo": "Heading Moçambique",
+        "empresa": "Anúncio Recente",
+        "provincia": "Moçambique",
+        "link": "https://www.emprego.co.mz/empregador/heading/"
+    },
+    {
+        "titulo": "Administração e Secretariado",
+        "empresa": "Anúncio Recente",
+        "provincia": "Moçambique",
+        "link": "https://www.emprego.co.mz/categoria/administracao-e-secretariado/"
+    },
+    {
+        "titulo": "PVPSSA MZBQ Engagement and Advocacy Officer",
+        "empresa": "Anúncio Recente",
+        "provincia": "Moçambique",
+        "link": "https://www.emprego.co.mz/vaga/pvpssa-mzbq-engagement-and-advocacy-officer/"
+    },
+    {
+        "titulo": "Instituto Dallaire",
+        "empresa": "Anúncio Recente",
+        "provincia": "Moçambique",
+        "link": "https://www.emprego.co.mz/empregador/instituto-dallaire/"
+    },
+    {
+        "titulo": "Administração e Secretariado",
+        "empresa": "Anúncio Recente",
+        "provincia": "Moçambique",
+        "link": "https://www.emprego.co.mz/categoria/administracao-e-secretariado/"
+    },
+    {
+        "titulo": "Coordenador da Recepção",
+        "empresa": "Anúncio Recente",
+        "provincia": "Moçambique",
+        "link": "https://www.emprego.co.mz/vaga/coordenador-da-recepcao/"
+    },
+    {
+        "titulo": "Fisiolab – Clínica de Fisioterapia",
+        "empresa": "Anúncio Recente",
+        "provincia": "Moçambique",
+        "link": "https://www.emprego.co.mz/empregador/fisiolab-clinica-de-fisioterapia/"
+    },
+    {
+        "titulo": "Administração e Secretariado",
+        "empresa": "Anúncio Recente",
+        "provincia": "Moçambique",
+        "link": "https://www.emprego.co.mz/categoria/administracao-e-secretariado/"
+    },
+    {
+        "titulo": "Legal Counsel – Litigation & Business Risk",
+        "empresa": "Anúncio Recente",
+        "provincia": "Moçambique",
+        "link": "https://www.emprego.co.mz/vaga/legal-counsel-litigation-business-risk/"
+    },
+    {
+        "titulo": "Union Energy Mozambique, Lda",
+        "empresa": "Anúncio Recente",
+        "provincia": "Moçambique",
+        "link": "https://www.emprego.co.mz/empregador/union-energy-mozambique-lda/"
+    },
+    {
+        "titulo": "Petróleo, Gás e Energias Renováveis",
+        "empresa": "Anúncio Recente",
+        "provincia": "Moçambique",
+        "link": "https://www.emprego.co.mz/categoria/petroleo-gas-e-energias-renovaveis/"
+    },
+    {
+        "titulo": "Estágios e Programas de Graduação",
+        "empresa": "Anúncio Recente",
+        "provincia": "Moçambique",
+        "link": "https://www.emprego.co.mz/categoria/estagios-e-programas-de-graduacao/"
+    },
+    {
+        "titulo": "Gestor do Currículo Nacional",
+        "empresa": "Anúncio Recente",
+        "provincia": "Moçambique",
+        "link": "https://www.emprego.co.mz/vaga/gestor-do-curriculo-nacional-2/"
+    },
+    {
+        "titulo": "PRI – Precision Recruitment International",
+        "empresa": "Anúncio Recente",
+        "provincia": "Moçambique",
+        "link": "https://www.emprego.co.mz/empregador/pri-precision-recruitment-international/"
+    },
+    {
+        "titulo": "Educação e Formação",
+        "empresa": "Anúncio Recente",
+        "provincia": "Moçambique",
+        "link": "https://www.emprego.co.mz/categoria/educacao-e-formacao/"
+    },
+    {
+        "titulo": "Ir para o perfil",
+        "empresa": "Anúncio Recente",
+        "provincia": "Moçambique",
+        "link": "https://www.emprego.co.mz/candidato/"
+    },
+    {
+        "titulo": "Apoio ao Cliente",
+        "empresa": "Anúncio Recente",
+        "provincia": "Moçambique",
+        "link": "https://www.emprego.co.mz/fale-connosco/apoio-ao-recrutador/"
+    },
+    {
+        "titulo": "Termos e Condições",
+        "empresa": "Anúncio Recente",
+        "provincia": "Moçambique",
+        "link": "https://www.emprego.co.mz/termos-e-condicoes/"
+    },
+    {
+        "titulo": "Política de Privacidade",
+        "empresa": "Anúncio Recente",
+        "provincia": "Moçambique",
+        "link": "https://www.emprego.co.mz/politica-de-privacidade/"
+    },
+    {
+        "titulo": "Política de Cookies",
+        "empresa": "Anúncio Recente",
+        "provincia": "Moçambique",
+        "link": "https://www.emprego.co.mz/politica-de-cookies/"
+    },
+    {
+        "titulo": "Perguntas Frequentes",
+        "empresa": "Anúncio Recente",
+        "provincia": "Moçambique",
+        "link": "https://www.emprego.co.mz/faq/"
     }
 ]
