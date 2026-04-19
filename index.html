@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MozWorks | Empregos em Moçambique</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        html { scroll-behavior: smooth; }
+    </style>
+    
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo">Moz<span>Works</span></div>
+        <nav>
+            <a href="#vagas">Vagas</a>
+            <a href="https://wa.me/258840000000?text=Olá,%20quero%20anunciar%20uma%20vaga." target="_blank" class="btn-contato">Publicar Vaga</a>
+        </nav>
+    </header>
+
+    <section class="hero" id="hero-section">
+        <div class="hero-overlay">
+            <h2 id="frase-motivadora">Carregando oportunidades...</h2>
+            <p>Conectando os melhores talentos às maiores empresas de Moçambique.</p>
+        </div>
+    </section>
+<section class="servicos-carrossel">
+    <h2 class="titulo-sessao">Soluções Profissionais</h2> <div class="carrossel-container">
+        <div class="carrossel-track" id="carrosselServicos">
+            </div>
+    </div>
+</section>
+
+    <section class="search-area" id="vagas">
+        <div class="filtros">
+            <input type="text" id="inputBusca" placeholder="Pesquisar cargo (ex: Técnico)...">
+            <select id="selectProvincia">
+                <option value="">Todas as Províncias</option>
+                <option value="Maputo">Maputo</option>
+                <option value="Matola">Matola</option>
+                <option value="Gaza">Gaza</option>
+                <option value="Inhambane">Inhambane</option>
+                <option value="Sofala">Sofala</option>
+                <option value="Manica">Manica</option>
+                <option value="Tete">Tete</option>
+                <option value="Zambézia">Zambézia</option>
+                <option value="Nampula">Nampula</option>
+                <option value="Niassa">Niassa</option>
+                <option value="Cabo Delgado">Cabo Delgado</option>
+            </select>
+        </div>
+    </section>
+
+    <main id="containerVagas" class="vagas-grid">
+        <p style="text-align:center; padding: 20px;">A procurar as melhores vagas...</p>
+    </main>
+
+<footer>
+    <div class="footer-content">
+        <div class="footer-grid">
+            <div class="footer-section">
+                <h3>Moz<span>Works</span></h3>
+                <p>A maior ponte entre talentos e oportunidades em Moçambique. Conectamos candidatos a empresas de forma transparente e gratuita.</p>
+            </div>
+
+            <div class="footer-section">
+                <h4>Navegação</h4>
+                <ul>
+                    <li><a href="#vagas">Ver Vagas</a></li>
+                    <li><a href="https://wa.me/258842238456?text=Olá%20MozWorks,%20gostaria%20de%20informações%20sobre%20como%20publicar%20um%20anúncio%20nas%20Soluções%20Profissionais." target="_blank" class="btn-anuncio">Publicar Anúncio</a>
+</li>
+                    <li><a href="javascript:void(0)" onclick="abrirTermos()">Termos de Uso</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h4>Suporte</h4>
+                <ul>
+                    <li><a href="https://wa.me/258842238456">Fale Connosco (WhatsApp)</a></li>
+                    <li><span style="color: #bdc3c7;">Local: Maputo, Moçambique</span></li>
+<li><span style="color: #27ae60;">● <span id="totalVagasSemana">0</span> vagas disponíveis</span></li>
+
+                </ul>
+            </div>
+        </div>
+
+        <hr class="footer-divider">
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 MozWorks. Todos os direitos reservados.</p>
+            <p><strong>Desenvolvido por: Basilio Dona</strong></p>
+            <p class="aviso-seguranca">Aviso: O MozWorks é 100% gratuito. Nunca pague para ser entrevistado!</p>
+        </div>
+    </div>
+</footer>
+
+<div id="modalTermos" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="fecharTermos()">&times;</span>
+        <h2>Termos de Uso - MozWorks</h2>
+        <div class="termos-texto">
+            <p><strong>1. Natureza do Serviço:</strong> O MozWorks é uma plataforma de agregação de links de emprego. Não somos uma agência de recrutamento nem temos vínculo com as empresas anunciantes.</p>
+            <p><strong>2. Responsabilidade:</strong> A nossa função é facilitar o acesso à informação. A veracidade das vagas e o processo de seleção são de inteira responsabilidade das empresas que publicam.</p>
+            <p><strong>3. Gratuidade:</strong> O uso deste site é 100% gratuito para candidatos. O MozWorks nunca solicitará pagamentos, dados bancários ou códigos via SMS para garantir vagas.</p>
+            <p><strong>4. Segurança:</strong> Recomendamos aos utilizadores que nunca partilhem informações sensíveis ou efetuem pagamentos a recrutadores. Burlas de emprego devem ser reportadas às autoridades.</p>
+            <p><strong>5. Atualização:</strong> Esforçamo-nos para manter o site atualizado, mas não garantimos que as vagas ainda estejam disponíveis no momento do clique, pois dependem do prazo de cada empresa.</p>
+        </div>
+    </div>
+</div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

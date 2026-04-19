@@ -1,0 +1,356 @@
+/* --- CONFIGURAÇÕES GERAIS --- */
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; 
+}
+
+html { 
+    scroll-behavior: smooth; 
+}
+
+body { 
+    background-color: #f8f9fa; 
+    color: #333; 
+    line-height: 1.6; 
+}
+
+/* --- NAVBAR --- */
+.navbar {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    padding: 15px 5%; 
+    background: #fff; 
+    position: fixed;
+    width: 100%; 
+    top: 0; 
+    z-index: 1000; 
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.logo { 
+    font-size: 24px; 
+    font-weight: bold; 
+    color: #1e293b;
+}
+
+.logo span { 
+    color: #2563eb; 
+}
+
+nav a { 
+    text-decoration: none; 
+    color: #333; 
+    margin-left: 20px; 
+    font-weight: 500; 
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #2563eb;
+}
+
+.btn-contato { 
+    background: #2563eb; 
+    color: #fff !important; 
+    padding: 8px 18px; 
+    border-radius: 5px; 
+    font-weight: bold;
+}
+
+/* --- HERO SLIDER --- */
+.hero {
+    height: 450px; 
+    margin-top: 60px;
+    background-size: cover; 
+    background-position: center;
+    transition: background-image 1s ease-in-out;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+
+.hero-overlay {
+    background: rgba(0, 0, 0, 0.65); 
+    width: 100%; 
+    height: 100%;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; 
+    color: white; 
+    padding: 20px; 
+    text-align: center;
+}
+
+.hero-overlay h2 { 
+    font-size: 2.5rem; 
+    margin-bottom: 10px; 
+    max-width: 700px; 
+}
+
+/* --- FILTROS --- */
+.search-area { 
+    padding: 40px 5%; 
+    background: #fff; 
+    border-bottom: 1px solid #eee;
+}
+
+.filtros { 
+    display: flex; 
+    gap: 15px; 
+    max-width: 900px; 
+    margin: 0 auto; 
+    flex-wrap: wrap; 
+}
+
+input, select { 
+    flex: 1; 
+    padding: 14px; 
+    border: 1px solid #ddd; 
+    border-radius: 8px; 
+    min-width: 250px; 
+    outline: none;
+    font-size: 1rem;
+}
+
+input:focus, select:focus {
+    border-color: #2563eb;
+}
+
+/* --- VAGAS GRID --- */
+.vagas-grid { 
+    padding: 40px 5%; 
+    max-width: 1000px; 
+    margin: 0 auto; 
+    min-height: 350px; 
+}
+
+.card-vaga {
+    background: white; 
+    padding: 25px; 
+    border-radius: 12px;
+    margin-bottom: 20px; 
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    border-left: 6px solid #2563eb;
+    transition: 0.3s;
+}
+
+.card-vaga:hover { 
+    transform: translateY(-5px); 
+    box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+}
+
+.vaga-info h3 { 
+    color: #1e293b; 
+    margin-bottom: 8px; 
+    font-size: 1.3rem;
+}
+
+.vaga-info p { 
+    color: #64748b; 
+    font-size: 0.95rem; 
+    margin-bottom: 4px;
+}
+
+/* --- BOTÕES DINÂMICOS --- */
+.btn-vaga {
+    padding: 12px 24px; 
+    border-radius: 8px; 
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+    background: #2563eb; /* Padrão: Azul */
+}
+
+.btn-vaga:hover { opacity: 0.9; }
+
+.btn-imagem { background-color: #f39c12 !important; }    /* Laranja */
+.btn-email { background-color: #3498db !important; }     /* Azul Claro */
+.btn-whatsapp { background-color: #27ae60 !important; }  /* Verde */
+.btn-aviso { background-color: #7f8c8d !important; cursor: help; } /* Cinza */
+
+/* --- NOVO FOOTER PROFISSIONAL --- */
+footer { 
+    background: #1e293b; 
+    color: white; 
+    padding: 60px 5% 30px; 
+    margin-top: 60px; 
+}
+
+.footer-content {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 40px;
+    text-align: left;
+}
+
+.footer-section h3 span { color: #2563eb; }
+
+.footer-section h4 {
+    color: #2563eb;
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+}
+
+.footer-section ul {
+    list-style: none; /* Remove os pontos/bullets */
+}
+
+.footer-section ul li {
+    margin-bottom: 12px;
+}
+
+.footer-section a {
+    color: #94a3b8;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer-section a:hover {
+    color: white;
+}
+
+.footer-divider { 
+    border: 0; 
+    border-top: 1px solid #334155; 
+    margin: 30px 0; 
+}
+
+.footer-bottom { 
+    text-align: center; 
+    font-size: 0.9rem; 
+    color: #94a3b8; 
+}
+
+.aviso-seguranca {
+    color: #ef4444 !important; /* Vermelho vibrante */
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+}
+
+/* --- MODAL (TERMOS DE USO) --- */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 2000;
+    left: 0; top: 0;
+    width: 100%; height: 100%;
+    background-color: rgba(0,0,0,0.8);
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: 10% auto;
+    padding: 30px;
+    border-radius: 12px;
+    width: 90%;
+    max-width: 600px;
+    color: #333;
+    max-height: 75vh;
+    overflow-y: auto;
+    position: relative;
+}
+
+.close {
+    position: absolute;
+    right: 20px; top: 15px;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #666;
+}
+
+/* --- RESPONSIVIDADE --- */
+@media (max-width: 768px) {
+    .card-vaga { 
+        flex-direction: column; 
+        align-items: flex-start; 
+        gap: 20px; 
+    }
+    
+    .btn-vaga { width: 100%; text-align: center; }
+    
+    .hero-overlay h2 { font-size: 1.8rem; }
+    
+    .footer-grid { text-align: center; }
+}
+/* --- CARROSSEL DE SERVIÇOS --- */
+.servicos-carrossel {
+    padding: 30px 5%;
+    background: #f1f5f9;
+    overflow: hidden; /* Esconde o que está fora da tela */
+}
+
+.carrossel-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.carrossel-track {
+    display: flex;
+    transition: transform 0.5s ease-in-out; /* Suaviza a transição */
+    gap: 20px;
+}
+
+.carrossel-item {
+    min-width: 280px; /* Largura de cada card */
+    max-width: 300px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    overflow: hidden; /* Garante que a imagem não saia do card */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Espaço para a imagem ilustrativa */
+.img-servico {
+    width: 100%;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    background-color: #ddd; /* Fundo caso não tenha imagem */
+}
+
+.conteudo-servico {
+    padding: 15px;
+    text-align: center;
+}
+
+.btn-servico-sm {
+    display: inline-block;
+    background: #8e44ad;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.titulo-sessao {
+    text-align: center;      /* Centraliza o texto */
+    width: 100%;             /* Garante que ocupa a largura toda para centralizar */
+    margin-bottom: 25px;     /* Espaço entre o título e os cards */
+    color: #1e293b;          /* Cor escura profissional */
+    font-size: 1.5rem;       /* Tamanho da fonte */
+    font-weight: 700;        /* Deixa o texto em negrito */
+    text-transform: uppercase; /* Opcional: deixa em maiúsculas para dar mais impacto */
+    letter-spacing: 1px;     /* Espaçamento entre letras para ficar moderno */
+}
