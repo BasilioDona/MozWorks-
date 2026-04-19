@@ -1,53 +1,50 @@
+
 import requests
 from bs4 import BeautifulSoup
 import json
 
-def capturar_vagas_sdo():
-    print("--- INICIANDO CAPTURA NO SITE NOVO (sdo.co.mz) ---")
+def capturar_sdo():
+    print("--- INICIANDO CAPTURA REAL ---")
     url = "https://sdo.co.mz/vagas/"
     vagas_lista = []
     
     headers = {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36'
     }
 
     try:
         response = requests.get(url, headers=headers, timeout=20)
-        print(f"Conexão: {response.status_code}")
+        print(f"Status: {response.status_code}")
         
         soup = BeautifulSoup(response.text, 'html.parser')
         
-        # Procura pelos links de vagas que o site da SDO usa
-        # Geralmente dentro de tags h2 ou h3 com links
-        vagas_html = soup.find_all(['h2', 'h3']) 
-
-        for item in vagas_html:
-            link_tag = item.find('a')
-            if link_tag and 'vaga' in link_tag['href'].lower():
-                titulo = link_tag.get_text(strip=True)
-                link_vaga = link_tag['href']
-                
-                # Se o link for relativo, adiciona o domínio
-                if not link_vaga.startswith('http'):
-                    link_vaga = "https://sdo.co.mz" + link_vaga
-
+        # Procura por links que contenham a palavra 'vaga' no endereço
+        links = soup.find_all('a', href=True)
+        
+        for link in links:
+            href = link['href']
+            texto = link.get_text(strip=True)
+            
+            if 'vaga' in href.lower() and len(texto) > 10:
                 vagas_lista.append({
-                    "titulo": titulo,
+                    "titulo": texto,
                     "empresa": "SDO Moçambique",
                     "provincia": "Moçambique",
-                    "link": link_vaga
+                    "link": href if href.startswith('http') else f"https://sdo.co.mz{href}"
                 })
-        
-        if len(vagas_lista) > 0:
-            # Salva apenas se encontrar vagas reais
+
+        # Remove duplicados
+        vagas_lista = [dict(t) for t in {tuple(d.items()) for d in vagas_lista}]
+
+        if vagas_lista:
             with open('vagas.json', 'w', encoding='utf-8') as f:
                 json.dump(vagas_lista, f, ensure_ascii=False, indent=4)
-            print(f"SUCESSO: {len(vagas_lista)} vagas reais encontradas e salvas!")
+            print(f"SUCESSO: {len(vagas_lista)} vagas encontradas!")
         else:
-            print("AVISO: Nenhuma vaga encontrada com os seletores atuais.")
+            print("ERRO: Nenhuma vaga encontrada. O site pode ter bloqueado o robô.")
 
     except Exception as e:
-        print(f"ERRO: {e}")
+        print(f"FALHA: {e}")
 
 if __name__ == "__main__":
-    capturar_vagas_sdo()
+    capturar_sdo()
